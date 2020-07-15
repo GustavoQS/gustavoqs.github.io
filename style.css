@@ -1,6 +1,9 @@
   body {
         background-color: #EEE;
         font-family: Helvetica, Arial
+        width: 100%;
+        height: 100%;
+
       }
     
     p {
@@ -21,6 +24,15 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+        height: 90%;
+      }
+
+      #container_big {
+        background-color: white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150%;
       }
       
       #header {
@@ -32,19 +44,20 @@
     
       #content {
         padding: 1px;
-    margin-top: 0px;
+        margin-top: 0px;
       }
       
       #nav {
         width: 180px;
-        height: 570px;
+        height: 90%;
         float: left;
-    background-color: #EBF5FB;
-    margin-right: 30px;
-    border-right:1px solid #999999;
-    border-top:1px solid #7FDBFF;
-    line-height: 25px;
-    }
+        background-color: #EBF5FB;
+        margin-right: 30px;
+        border-right:1px solid #999999;
+        border-top:1px solid #7FDBFF;
+        line-height: 25px;
+        position: left ;
+      }
    
       #nav.selected {
         font-weight: bold;
@@ -57,15 +70,16 @@
       
       #big_nav_2 {
         width: 180px;
-        height: 120%;
+        height: 80%;
         float: left;
-    background-color: #EBF5FB;
-    margin-right: 30px;
-    border-right:1px solid #999999;
-    border-top:1px solid #7FDBFF;
-    line-height: 25px;
-    }
-    
+        background-color: #EBF5FB;
+        margin-right: 30px;
+        border-right:1px solid #999999;
+        border-top:1px solid #7FDBFF;
+        line-height: 25px;
+        position: left ;
+      }
+
       #big_nav_2 ul {
         list-style-type: none;
         padding: 0;
@@ -78,12 +92,14 @@
     
       #footer {
         clear: both;
-        padding: 10px;
+        padding: 1%;
         background-color: #999999;
         color: white;
         text-align: right;
+        bottom: 0;
       }
       
       .floatRight {
-        float:right;margin-left:20px
+        float:right;
+        margin-left:20px
       }
